@@ -436,6 +436,27 @@ h1, h2, h3, h4, h5, h6 .navbar-brand {
   text-align: center;
 }
 
+/* SAMAKAN TINGGI CARD */
+.project-card,
+.project-ui {
+  height: 100%;
+
+  display: flex;
+
+  flex-direction: column;
+}
+
+/* CONTENT FLEX */
+.project-content {
+  flex: 1;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: space-between;
+}
+
 /* TECH STACK */
 .project-tech {
   display: flex;
@@ -474,6 +495,8 @@ h1, h2, h3, h4, h5, h6 .navbar-brand {
   gap: 12px;
 
   margin-top: 25px;
+
+  flex-wrap: wrap;
 }
 
 .project-wd {
@@ -484,6 +507,7 @@ h1, h2, h3, h4, h5, h6 .navbar-brand {
   text-decoration: none;
 
   padding: 10px;
+  
 
   border-radius: 10px;
 
@@ -494,6 +518,7 @@ h1, h2, h3, h4, h5, h6 .navbar-brand {
   color: white;
 
   transition: 0.3s ease;
+  min-width: 120px;
 }
 
 .project-wd:hover {
@@ -806,6 +831,10 @@ footer p {
     opacity: 0.7;
   }
 
+  .project-wd {
+    font-size: 12px;
+  }
+
   /* EFEK SENTUH */
   .project-card:active {
     transform: scale(0.97);
@@ -835,6 +864,7 @@ footer p {
 
   .project-buttons {
     flex-direction: column;
+    
   }
 
   .project-ui .project-icon {
