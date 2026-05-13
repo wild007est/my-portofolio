@@ -45,5 +45,25 @@
   });
 </script>
 
+<script>
+document.querySelectorAll('.btn-primary-glow').forEach(btn => {
+
+  btn.addEventListener('click', function(e) {
+
+    e.preventDefault();
+
+    const link = this.href;
+
+    this.classList.add('clicked');
+
+    setTimeout(() => {
+      window.location.href = link;
+    }, 200);
+
+  });
+
+});
+</script>
+
 </body>
 </html>

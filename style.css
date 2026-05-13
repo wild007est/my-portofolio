@@ -218,36 +218,27 @@ h1, h2, h3, h4, h5, h6 .navbar-brand {
 .btn-primary-glow {
   font-size: 12px;
   background: transparent;
-
   color: white;
 
   border: 1px solid rgba(59,130,246,0.4);
+
   box-shadow:
     0 0 15px rgba(59,130,246,0.35),
     0 0 30px rgba(59,130,246,0.15);
 
   border-radius: 50px;
-
   display: inline-block;
-
   padding: 6px 18px;
 
-  transition: all 0.3s ease;
+  transition: all 0.2s ease;
 
-  backdrop-filter: blur(6px);
+  text-decoration: none;
+
   -webkit-tap-highlight-color: transparent;
 }
 
-/* HOVER */
-.btn-primary-glow:hover {
+.btn-primary-glow.clicked {
   background: rgba(59,130,246,0.8);
-  color: white;
-}
-
-.btn-primary-glow:active {
-  background: rgba(59,130,246,0.8);
-  color: white;
-
   transform: scale(0.96);
 }
 
