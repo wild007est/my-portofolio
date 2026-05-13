@@ -738,12 +738,8 @@ section {
 }
 
 .closing-text {
-  color: white;
+  color: rgba(255, 255, 255, 0.8);
   font-family: 'Poppins', sans-serif;
-
-  font-size: 0.9rem;
-
-  letter-spacing: 1px;
 
   margin-bottom: 14px;
 }
@@ -1070,11 +1066,6 @@ footer p {
     margin-bottom: 24px;
   }
 
-  .closing-text {
-    font-size: 0.95rem;
-
-    margin-bottom: 10px;
-  }
 
   /* FOOTER */
   footer {
