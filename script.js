@@ -17,7 +17,7 @@ fetch('contact.html').then(res => res.text()).then(data => {
 
 // typing effect
 document.addEventListener("DOMContentLoaded", function () {
-  const text = [" Front-end Web Developer ", " Data Analyst ", " UI Designer "];
+  const text = [" Front-end Web Developer ", " Data Analyst ", " UI UX Designer "];
   let i = 0, j = 0, current = "", isDeleting = false;
 
   function type() {

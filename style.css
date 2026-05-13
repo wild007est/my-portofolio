@@ -239,11 +239,7 @@ h1, h2, h3, h4, h5, h6 .navbar-brand {
 
 /* HOVER */
 .btn-primary-glow:hover {
-  background: rgba(59,130,246,0.15);
-
-  transform: translateY(-2px);
-
-  border-color: rgba(59,130,246,0.8);
+  background: rgba(59,130,246,0.8);
 
   color: white;
 }
@@ -758,23 +754,13 @@ section {
   margin-bottom: 14px;
 }
 
-.closing-section h3 {
-  margin: 0;
-
-  font-size: 1.7rem;
-
-  line-height: 1.6;
-
-  color: white;
-}
-
 
 /* ================= CONTACT ================= */
 
 .contact-desc {
   color: rgba(255,255,255,0.8);
 
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .contact-links {
@@ -808,7 +794,6 @@ section {
   backdrop-filter: blur(10px);
 
   transition: 0.3s ease;
-  margin-bottom: 90px;
 }
 
 .contact-btn:hover {
@@ -911,6 +896,14 @@ footer p {
 
   .typing {
     font-size: 14px;
+  }
+
+  .btn-primary-glow:hover {
+  background: rgba(59,130,246,0.8);
+
+  transform: translateY(-2px);
+
+  color: white;
   }
 
   /* ================= About ================= */
@@ -1087,12 +1080,6 @@ footer p {
     font-size: 0.95rem;
 
     margin-bottom: 10px;
-  }
-
-  .closing-section h3 {
-    font-size: 1rem;
-
-    line-height: 1.7;
   }
 
   /* FOOTER */
