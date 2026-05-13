@@ -238,7 +238,7 @@ h1, h2, h3, h4, h5, h6 .navbar-brand {
 }
 
 .btn-primary-glow.clicked {
-  background: rgba(59,130,246,0.8);
+  background: rgb(38, 112, 231);
   transform: scale(0.96);
 }
 
