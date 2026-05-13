@@ -235,16 +235,19 @@ h1, h2, h3, h4, h5, h6 .navbar-brand {
   transition: all 0.3s ease;
 
   backdrop-filter: blur(6px);
+  -webkit-tap-highlight-color: transparent;
 }
 
 /* HOVER */
 .btn-primary-glow:hover {
   background: rgba(59,130,246,0.8);
-
   color: white;
 }
 
 .btn-primary-glow:active {
+  background: rgba(59,130,246,0.8);
+  color: white;
+
   transform: scale(0.96);
 }
 
