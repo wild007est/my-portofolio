@@ -370,6 +370,57 @@ h1, h2, h3, h4, h5, h6 .navbar-brand {
   margin: 0;
 }
 
+/* ================= CERTIFICATION BUTTON ================= */
+
+.certification-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  margin-top: 18px;
+  padding: 9px 18px;
+
+  border-radius: 50px;
+
+  background: rgba(59,130,246,0.12);
+
+  border: 1px solid rgba(59,130,246,0.3);
+
+  color: white;
+
+  text-decoration: none;
+
+  font-size: 0.82rem;
+  font-weight: 500;
+
+  box-shadow:
+    0 0 12px rgba(59,130,246,0.18);
+
+  transition: all 0.3s ease;
+}
+
+.certification-btn i {
+  color: #60a5fa;
+}
+
+.certification-btn:hover {
+  background: rgba(59,130,246,0.7);
+
+  border-color: rgba(59,130,246,0.7);
+
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 0 20px rgba(59,130,246,0.3);
+
+  color: white;
+}
+
+.certification-btn:active {
+  transform: scale(0.96);
+}
+
 /* PROJECT CARD */
 /* PROJECT CARD */
 .project-card {
@@ -969,6 +1020,13 @@ footer p {
 
     line-height: 1.8;
   }
+
+  .certification-btn {
+  width: 100%;
+  margin-top: 15px;
+  font-size: 0.8rem;
+  }
+
   .tech-grid {
   grid-template-columns: repeat(2, 1fr);
   gap: 14px;
